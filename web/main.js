@@ -1,8 +1,7 @@
-function addition(){
-    var data1 = document.getElementById("num1").value
-    var data2 = document.getElementById("num2").value
-    eel.add()(callBack)
+generate = () => {
+    var data = document.getElementById('data').value;
+    eel.generate_qr(data)(setImage)
 }
-function callBack(result){
-    document.getElementById("ans").value=result
+setImage = (base64) => {
+    document.getElementById('qr').src = base64
 }

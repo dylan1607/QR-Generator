@@ -1,42 +1,32 @@
 <!DOCTYPE html>
 <html>
-<title>Shopping</title>
+<title>QR Code</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="main.js">
-<style>
-    body,h1 {font-family: "Raleway", sans-serif}
-    body, html {height: 100%}
-    .bgimg {
-    background-image: url('/web/img/shop.jpeg');
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
-    }
-</style>
+<link rel="stylesheet" href="./css/style.css">
+
 <body>
-    <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+    <section class="landing">
+        <div class="max-width">
+            <div class="heading">
+                <h1 class="title">Code Generator</h1>
+                <div class="description">Turn any pieces of text to QR Code!</div>
 
-        <div class="w3-display-middle">
-            <h1 class="w3-jumbo w3-animate-top ">
-                <font color="red">Miin Home</font>
-                
-            </h1>
-            <hr class="w3-border-grey" style="margin:auto;width:40%">
-            <p class="w3-animate-fading w3-center">
-                <a href="https://www.facebook.com/miinhome.nt" target="_blank">
-                    <input type="button" class="acces" value="Truy Cập" onclick="">
-                </a>
-            </p>
+            </div>
+            <div class="content">
+                <form class="form">
+                    <input type="text" id="data" class="form-control" placeholder="Input text">
+                    <input type="button" class="submit" value="Get QR Code" onclick="generate()">
+                </form>
+            </div>
+            <div class="thumb">
+                <p id="result"></p>
+                <img id="qr" src="" width="60%">
+            </div>
         </div>
-
-        <div class="w3-display-bottomleft w3-padding-large">
-            Created by <a href="https://www.facebook.com/kid.bab.boy" target="_blank">Nguyên</a>
-        </div>
-    </div>
-
+    </section>
 </body>
+<script src="./main.js"></script>
 </html>
 

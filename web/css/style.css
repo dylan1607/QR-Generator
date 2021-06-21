@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landing {
+    background: url("https://images.unsplash.com/photo-1603545696381-3d7a3f278310?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGdlYXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60") no-repeat center;
+    background-size: cover;
+    background-color: #111;
+    background-attachment: fixed;
+    height: 100vh;
+    min-height: 500px;
+    font-family: ubuntu, sans-serif;
+}
+
+.landing .max-width {
+    display: flex;
+    flex-direction: column;
+    padding: 20vh 20vw;
+}
+
+.landing .max-width .heading .title {
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.landing .max-width .heading .description {
+    margin-bottom: 50px;
+}
+
+.landing .max-width .content .form-control {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.landing .max-width .content .submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.landing .max-width .thumb {
+    
+}
