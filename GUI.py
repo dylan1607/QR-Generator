@@ -4,8 +4,6 @@ import io
 import pyqrcode
 from base64 import b64encode
 
-eel.init('web')
-
 @eel.expose
 
 def generate_qr(data):
@@ -16,12 +14,14 @@ def generate_qr(data):
     print("QR code generation successful.")
     return "data:image/png;base64, " + encoded
 
-
 # Custom option
 my_option = {
     'mode': 'chrome-app',
     'host': 'localhost',
     'port': 8080
 }
+
 #eel start html page with size
-eel.start("home.html", size = (800,600))
+if __name__ == "__main__":
+    eel.init("web")
+    eel.start("index.html", size = (800,600))
