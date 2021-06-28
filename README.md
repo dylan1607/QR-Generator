@@ -1,5 +1,5 @@
 <html>
-<h1>Web Application By Using EEL Python</h1>
+<h1>QR Code Generator</h1>
 <body>
     <div><i>The directory structure of the project is simple:</i></div>
     <p>
