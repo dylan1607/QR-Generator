@@ -28,6 +28,12 @@
                 $ git clone https://github.com/dylan1607/QR-Generator.git <br>
                 $ cd QR-Generator
             </blockquote>
+            <li>Require Python 3.x. Install eel, pyqrcode and pypng</li>
+            <blockquote>
+                $ pip install eel pyqrcode pypng
+            </blockquote>
+            <li>Run the application</li>
+            <blockquote>$ python main.py</blockquote>
         </ul>
     <body>        
 </html>
