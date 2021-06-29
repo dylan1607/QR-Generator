@@ -6,7 +6,6 @@
         <p>
         Web Application is created with HTML/CSS and JS with backend Python by using EEL, which a little Python library with full access to Python capabilities and library
         </p>
-        <br>
         <p>
             You can generate QR Code with this simple way. Add some text and after that you click the button the image will appear
         </p>
@@ -26,7 +25,7 @@
         <ul>
             <li>Clone the repo and cd into the directory</li>
             <blockquote>
-                $ git clone https://github.com/dylan1607/QR-Generator.git
+                $ git clone https://github.com/dylan1607/QR-Generator.git <br>
                 $ cd QR-Generator
             </blockquote>
         </ul>
