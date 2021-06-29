@@ -30,7 +30,9 @@
             </blockquote>
             <li>Require Python 3.x. Install eel, pyqrcode and pypng</li>
             <blockquote>
-                $ pip install eel pyqrcode pypng
+                $ pip install eel pyqrcode pypng<br>
+                or<br>
+                $ pip install -r requirements.txt
             </blockquote>
             <li>Run the application</li>
             <blockquote>$ python main.py</blockquote>
